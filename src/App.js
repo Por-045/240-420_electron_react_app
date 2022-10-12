@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
 export default class App extends React.Component {
   render() {
     return (
@@ -12,14 +10,16 @@ export default class App extends React.Component {
           justifyContent: "center",
         }}
       >
-        <h1>Home page</h1>
-        <div>
+        <h1>Welcome</h1>
+        <h2>This Web-driven Desktop App has develop with Electron and React</h2>
+        <div><br />
           <img
-            src="https://play-lh.googleusercontent.com/5rS-un965hkZuqUNA65RwkeqmGko91DVQHlAMCQ9lJlNguvXkCQzjl6OgAMOPZ2cCk4"
-            alt="Home"
+            style={{ height: "400px", width: "400px" }}
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1200px-Electron_Software_Framework_Logo.svg.png"
+            alt="Electron"
           />
-        </div><br/>
-        <Link to="/profile">Go back to profile</Link>
+        </div>
+        <br />
       </div>
     );
   }

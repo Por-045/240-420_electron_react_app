@@ -1,3 +1,7 @@
+.body {
+    background-color: #777;
+}
+
 .nav {
     background-color: #333;
     color: white;
@@ -10,6 +14,16 @@
 
 .site-title {
     font-size: calc(20px + 2vmin);
+}
+
+.timecode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    /* text-align: center; */
+    font-size: 120px;
+
 }
 
 .nav ul {
@@ -34,9 +48,9 @@
     align-items: center;
 }
 
-.nav li.active {
+/* .nav li.active {
     background-color: #555;
-}
+} */
 
 .nav li:hover {
     background-color: #777;

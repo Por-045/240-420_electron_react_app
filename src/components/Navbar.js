@@ -1,13 +1,13 @@
 export default function Navbar() {
     return (
         <nav className="nav">
-            <a href="/" className="site-title">Site Name</a>
+            <a href="/" className="site-title">Time</a>
             <ul>
                 <li className="active">
-                    <a href="/profile">About Us</a>
+                    <a href="/timerpage">Time Counter</a>
                 </li>
                 <li>
-                    <a href="/">Home</a>
+                    <a href="/profile">About Us</a>
                 </li>
             </ul>
 
