@@ -7,9 +7,9 @@ export default class Profile extends React.Component {
       <div>
         <h1>This is my profile</h1>
         <Link to="/">Go back to home</Link>
-        <div>
+        {/* <div>
           <img src="https://www.bestsadstatus.com/wp-content/uploads/2019/09/whatsapp-dp-for-girls-17.jpg"></img> 
-        </div>
+        </div> */}
       </div>
     );
   }

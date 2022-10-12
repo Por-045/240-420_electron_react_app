@@ -3,16 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Profile from './Profile';
-import { BrowserRouter, Route } from "react-router-dom";
- 
-import * as serviceWorker from './serviceWorker';
+import { BrowserRouter, Route, Routes } from "react-router-dom"; 
+import * as serviceWorker from './serviceWorkerRegistration';
+import reportWebVitals from './reportWebVitals';
  
 ReactDOM.render(
   <React.StrictMode>
      <BrowserRouter>
         <div className="App">
-          <Route path="/" exact component={App} />
-          <Route path="/Profile" exact component={Profile} />
+          <Routes>
+            <Route path="/" element={<App />} />
+            <Route path="/Profile" element={<Profile />} />
+          </Routes>
         </div>
       </BrowserRouter>
   </React.StrictMode>,
@@ -23,3 +25,4 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+reportWebVitals();
