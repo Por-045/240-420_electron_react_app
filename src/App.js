@@ -7,9 +7,12 @@ export default class App extends React.Component {
       <div>
         <h1>Home page</h1>
         <Link to="/profile">Go back to profile</Link>
-        {/* <div>
-          <img src="https://www.bestsadstatus.com/wp-content/uploads/2019/09/whatsapp-dp-for-girls-6.jpg"></img>
-        </div> */}
+        <div>
+          <img 
+            src="https://play-lh.googleusercontent.com/5rS-un965hkZuqUNA65RwkeqmGko91DVQHlAMCQ9lJlNguvXkCQzjl6OgAMOPZ2cCk4" 
+            alt="Home"
+          />
+        </div>
       </div>
     );
   }

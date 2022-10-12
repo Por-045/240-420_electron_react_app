@@ -7,9 +7,12 @@ export default class Profile extends React.Component {
       <div>
         <h1>This is my profile</h1>
         <Link to="/">Go back to home</Link>
-        {/* <div>
-          <img src="https://www.bestsadstatus.com/wp-content/uploads/2019/09/whatsapp-dp-for-girls-17.jpg"></img> 
-        </div> */}
+        <div>
+          <img 
+            src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80" 
+            alt="Profile"
+          />
+        </div>
       </div>
     );
   }
